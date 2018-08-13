@@ -209,7 +209,7 @@ $n_total=$n_actos + $n_exposiciones;
 //Preparar plantilla
 $n_diasemana=date('N', strtotime($hoy));
 $template->assign_vars(array(
-		'SITIO' => $system->SETTINGS['sitename'],
+		'SITIO' => $system->SETTINGS['sitename'].'master',
 		'HOY' => lee_fecha($hoy),
 		'CAL_FECHA' => $hoy,
 		'DIASEMANA' => $str_diasemana[$n_diasemana],
