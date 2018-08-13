@@ -206,6 +206,9 @@ while ($row = mysql_fetch_array($res))
 //numero de actos
 $n_total=$n_actos + $n_exposiciones;
 
+//ruben
+ruben="";
+
 //Preparar plantilla
 $n_diasemana=date('N', strtotime($hoy));
 $template->assign_vars(array(
